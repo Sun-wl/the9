@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+
+.all{
+	height: 100%;
+	background: url("../img_525/bj_zhuo_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.top{
+	height: 80%;
+	display: flex;
+}
+.top>*{
+	flex: 1;
+}
+.top .prizes{
+	position: relative;
+}
+.top .prizes .greenbg{
+	width: 300px;
+	height: 300px;
+	background: #345012;
+	border-radius: 50%;
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	transform: translateY(-50%);
+}
+.top .prizes .prize{
+	width: 55%;
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.top .prizes .prize.jinpai{
+	width: 70%;
+}
+.top .prizes .choujiang{
+	width: 250px;
+	position: absolute;
+	left: 48%;
+	transform: translateX(-50%);
+	bottom: -80px;
+}
+
+
+.top .gundong{
+	position: relative;
+}
+.top .gundong>div{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 420px;
+}
+.top .gundong .every{
+	position: relative;
+}
+.top .gundong .every.no{
+	display: none;
+}
+.top .gundong .every img.fdt{
+	width: 100%;
+	height: 70px;
+	margin: 3px 0;
+}
+.top .gundong .every .num{
+	position: absolute;
+	width: 35px;
+	height: 58.33px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url("../img_525/num-2017.png") no-repeat;
+	background-size: 100%;
+}
+.top .gundong .every .num.num1{
+	left: 17.5px;
+}
+.top .gundong .every .num.num2{
+	left: 87.5px;	
+}
+.top .gundong .every .num.num3{
+	left: 157.5px;	
+}
+.top .gundong .every .num.num4{
+	left: 227.5px;	
+}
+.top .gundong .every .num.num5{
+	left: 297.5px;	
+}
+.top .gundong .every .num.num6{
+	left: 367.5px;	
+}
+.bottom{
+	height: 20%;
+	text-align: center;
+	position: relative;
+}
+.bottom>div{
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	top: 30px;
+	transform: translateX(-50%);
+	display: flex;
+}
+.bottom>div>*{
+	float: left;
+}
+.bottom .number{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #122100;
+	border-radius: 50%;
+	font-size: 30px;
+	color: #fff;
+	font-family: "黑体";
+	margin-top: 10px;
+}
+.bottom .number.lightGreen{
+	background: #488400;
+}
+.bottom .number.big{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0;
+}
+.bottom .line{
+	width: 100px;
+	height: 2px;
+	background: #122100;
+	margin-top: 27px;
+}

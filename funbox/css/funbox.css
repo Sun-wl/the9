@@ -1,0 +1,364 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "黑体";
+	color: #fff;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~手机端~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*手机端公用样式*/
+.fbs{
+	height: 100%;
+	background: url("../img/funbox_bg.png") no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 10px;
+}
+.fbs_body{
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+}
+.fbs .btn{
+	width: 130px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 23px;
+	background:url(../img/funbox_resultbg.png);
+	background-size: 100% 100%;
+	border: 1px solid #784208;
+	border-radius: 3px;
+	color: #894005;
+	font-weight: 900;
+	margin-top: 20px;
+	box-shadow: 0 0 2em #f7c916;
+}
+.overHide{
+	overflow: auto;
+}
+
+.fbs .btn.bott{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+p{
+	text-align: left;
+}
+.text1{
+	font-size: 25px;
+}
+.text2{
+	font-size: 22px;
+}
+.text3{
+	font-size: 19px;
+}
+.text4{
+	font-size: 16px;
+}
+
+/*~~~~~~~进入竞猜界面~~~~~~~*/
+.fbs_head{
+	width: 100%;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~修改~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.fbs_guess>p{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+.fbs_guessTeam{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.fbs_guessTeam *{
+	float: left;
+}
+.fbs_guessTeam span{
+	font-size: 14px;
+	line-height: 15px;
+	margin-top: 3px;
+}
+.fbs_guessTeam .prog{
+	float: right;
+	width: 40%;
+}
+.fbs_guessTeam .prog .progress{
+	position: relative;
+	width: 100%;
+}
+.fbs_guessTeam .prog .progress img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 17px;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+.fbs_guessTeam .prog .progress .pgBg{
+	width: 100%;
+	border: 2px solid #252124;
+}
+.fbs_guessTeam .prog .progress .progressimg{
+	border: 2px solid rgba(0,0,0,0);
+}
+.fbs_guessTeam .prog>p{
+	margin-top: 20px;
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
+}
+.fbs_guessVs{
+	width: 55px;
+}
+.toGuessBtn{
+	background: url(../img/funbox_tobg.png);
+	background-size: 100% 100%;
+	color: #fff;
+	width: 100px;
+	height: 20px;
+	margin-top: 20px;
+	border: 1px solid #c5681d;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: 13px;
+	box-shadow: 0 0 1em #ffee70;
+}
+/*.fbs_body .fbs_cntchild .fbs_guess{
+	display: flex;
+	margin-top: 50px;
+}
+.fbs_body .fbs_cntchild .fbs_guess p{
+	text-align: center;
+}
+.fbs_guess>div.fbs_guessTeam{
+	flex: 3;
+}
+.fbs_guess>div.fbs_guessVs{
+	flex: 2;
+}
+.fbs_guessTeam>input{
+	margin: 0 0 0 5px;
+	float: left;
+}
+.fbs_guessTeam>p{
+	font-size: 13px;
+	height: 30px;
+	line-height: 15px;
+	float: left;
+	width: 80%;
+	margin: 0;
+}
+.fbs_guessTeam .progress{
+	margin: 10px 15% 40px;
+	position: relative;
+}
+.fbs_guessTeam .progress img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 13px;
+	border-radius: 50px;
+}
+.fbs_guessTeam span{
+	font-size: 13px;
+}
+
+.fbs_guessVs img{
+	width: 55px;
+}
+.fbs_guessVs p{
+	font-size: 15px;
+}
+.fbs_guessVs button{
+	
+}*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.result{
+	width: 350px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.result .btn{
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	margin: 20px 8px;
+}
+/*~~~~~~~~~~选择金额界面~~~~~~~~~~~~*/
+.money{
+	margin-top: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+.money input{
+	background: rgba(0,0,0,0.6);
+	border: none;
+	box-shadow: 0 0 0 0.1em rgba(0,0,0,0.3);
+	width: 120px;
+	height: 28px;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: -1px;
+	color: #fff;
+}
+.moneyCue{
+	margin-top: 50px;
+	text-align:center;
+}
+
+.fbs .btn.confirm{
+	margin-top: 60px;
+}
+
+
+.cue{
+	width: 95%;
+	border: 1px solid #cab36b;
+	background: #000;
+	border-radius: 5px;
+	margin: 60px 0 0 2%;
+	padding: 20px 9px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+/*~~~~~~~~~~确认金额~~~~~~~~~~~*/
+.text2.cen,.text3.cen,.text4.cen{
+	text-align: center;
+}
+.text3.cen,.text4.cen{
+	margin: 50px 0;
+}
+/*~~~~~~~~~~~总金额~~~~~~~~~~~*/
+.fbs_sumBody{
+	margin: 50px 10% 30px;
+}
+.text3.mid{
+	margin: 25px 0;
+}
+.text3.sum{
+	color: #ff3232;
+	margin-top:80px;
+}
+.sum_btn{
+	margin-bottom: 50px;
+}
+
+/*~~~~~~~~~比赛未结束~~~~~~~~~~~*/
+.head{
+	margin-top: 50px;
+}
+.head img{
+	width: 120px;
+}
+
+
+
+/*~~~~~~~~~~表情包~~~~~~~~~*/
+.look1{
+	width: 100%;
+}
+.look2{
+	width: 50%;
+	margin-top: 80%;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~pc端~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.fbb{
+	height: 100%;
+	background: url("../img/funbox_bg1.png") no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	padding-top: 10px;
+	position: relative;
+}
+.fbb_ctn{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-35%);
+}
+.fbb_ctnChild{
+	margin-bottom:80px;
+}
+.fbb_ctnChild p{
+	font-size: 28px;
+	font-weight: 600;
+	font-family: "小宋";
+	text-align: center;
+}
+.middleImg{
+	width: 80px;
+}
+.fbb_ctnChild>.vs{
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+}
+.fbb_ctnChild>.vs>span{
+	flex: 3;
+	padding-top: 20px;
+	font-size: 25px;
+}
+.fbb_ctnChild>.vs>div{
+	flex: 7;
+	position: relative;
+}
+.fbb_ctnChild>.vs>div>div.btns{
+	position: relative;
+	height: 30px;
+	background: #fff;
+	border-radius: 50px;
+	margin : 20px 0;
+}
+.fbb_ctnChild>.vs>div>div.btns>button{
+	position: absolute;
+	top: 0;
+	height: 30px;
+	border: 1px solid #ccc;
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+}
+.fbb_ctnChild>.vs>div>div.btns>button.red{
+	left: 0;
+	background: #fd0b0e;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	text-align: left;
+}
+.fbb_ctnChild>.vs>div>div.btns>button.blue{
+	right: 0;
+	background: #022ff1;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	text-align: right;
+}
+.fbb_ctnChild>.vs>div img{
+	position: absolute;
+	top: 0;
+	transform: translateX(-50%);
+}
